@@ -43,7 +43,19 @@ export class ReplaceImports extends Stage<ts.ImportDeclaration> {
 								),
 							);
 						}
-						return newVariables;
+						return [
+							factory.createImportDeclaration(
+								undefined,
+								undefined,
+								factory.createImportClause(
+									true,
+									undefined,
+									factory.createNamedImports([])
+								),
+								factory.createStringLiteral("@rbxts/services")
+							),
+							...newVariables
+						];
 					}
 				}
 			}
