@@ -1,7 +1,7 @@
 {
-	"name": "rbxts-transformer-template",
-	"version": "1.0.0",
-	"description": "",
+	"name": "rbxts-transformer-services",
+	"version": "0.0.1",
+	"description": "A transformer that converts @rbxts/services imports into plain GetService calls.",
 	"main": "out/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +19,9 @@
 		"eslint-plugin-prettier": "^3.2.0",
 		"prettier": "^2.2.1"
 	},
-	"author": "Fireboltofdeath",
-	"license": "ISC"
+	"author": "Fireboltofdeath <fireboltofpublic@gmail.com> (https://github.com/Fireboltofdeath)",
+	"license": "ISC",
+	"files": [
+		"out"
+	]
 }
