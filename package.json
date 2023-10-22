@@ -1,6 +1,6 @@
 {
 	"name": "rbxts-transformer-services",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "A transformer that converts @rbxts/services imports into plain GetService calls.",
 	"main": "out/index.js",
 	"author": "Fireboltofdeath <fireboltofpublic@gmail.com> (https://github.com/Fireboltofdeath)",
