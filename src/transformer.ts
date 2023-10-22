@@ -1,5 +1,4 @@
 import ts from "typescript";
-import {} from "ts-expose-internals";
 
 /**
  * This is the transformer's configuration, the values are passed from the tsconfig.
@@ -50,7 +49,6 @@ function visitImportDeclaration(context: TransformContext, node: ts.ImportDeclar
 		// issues with isolated modules.
 		factory.updateImportDeclaration(
 			node,
-			undefined,
 			undefined,
 			factory.createImportClause(false, undefined, factory.createNamedImports([])),
 			node.moduleSpecifier,
